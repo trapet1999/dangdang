@@ -4,11 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --open",
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/node": "^18.11.9",
+    "dotenv": "^16.0.3",
+    "good-storage": "^1.1.1",
     "vue": "^3.2.41"
   },
   "devDependencies": {
